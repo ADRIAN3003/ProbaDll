@@ -18,5 +18,16 @@ namespace ProbaDll
         {
             return x + y;
         }
+
+        /// <summary>
+        /// A <paramref name="x"/> és a <paramref name="y"/> egész számok szorzatát adja.
+        /// </summary>
+        /// <param name="x">Első egész operandus</param>
+        /// <param name="y">Második egész operandus</param>
+        /// <returns><paramref name="x"/>*<paramref name="y"/></returns>
+        public int Szorzat(int x, int y)
+        {
+            return x * y;
+        }
     }
 }
